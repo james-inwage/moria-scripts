@@ -11,13 +11,13 @@ Node.js is required to run the script
 ## Installation
 
 ```console
-moria-scripts$ npm init
+> npm init
 ```
 
 ## Running
 
 ```console
-moria-scripts$ node token-balances.js API-KEY BLOCK-HEIGHT
+> node token-balances.js API-KEY BLOCK-HEIGHT
 ```
 
 where API-KEY is you infura API Key and (optionally) BLOCK-HEIGHT is the height at which you want balances at. If omitted BLOCK-HEIGHT defaults to the latest block.
